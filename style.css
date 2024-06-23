@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: 'Mulish' sans-serif;
+  font-size: 62.5%;
+}
+
+.page {
+  background-color: #F5F5F5;
+  padding: 0 11.5rem 0;
+}
+
+header {
+  display: flex;
+  gap: 7.5rem;
+  align-items: center;
+
+  padding: 1.6rem 11.2rem;
+  background-color: white;
+}
+
+header ul {
+  list-style: none;
+  text-decoration: none;
+
+  display: flex;
+  flex-direction: row;
+  gap: 7.5rem;
+}
+
+header ul li a {
+  color: #8D8D99;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 160%;
+
+  text-decoration: none;
+
+}
+
+header ul li a:hover {
+  color: #202024;
+  font-weight: 700;
+  font-size: 1.9rem;
+}
+
+input {
+  width: 71.8rem;
+  height: 4.8rem;
+  padding-left: 1.6rem;
+  background-color: #EEEEEE;
+  border:none;
+  border-radius: 5px;
+}
+
+#event-search {
+  font-family: 'Mulish' sans-serif;
+  color: #3D3D3D;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 100%;
+}
+
+input::placeholder {
+  width: 71.8rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 100%;
+  color: #3D3D3D;
+  opacity: 0.5;
+}
+
+h1 {
+  font-family: 'Mulish', sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 160%;
+  color: #202024;
+  padding-block: 3.6rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  padding-bottom: 6.5rem;
+}
+
+.frames {
+  background-color: white;
+  border-radius: .8rem;
+}
+
+.frames a {
+  text-decoration: none;
+}
+
+.frames a:hover {
+  background-color: black;
+}
+
+.frames img {
+  border-radius: .8rem .8rem 0 0;
+}
+
+.description {
+  padding: 2.3rem;
+  font-family: 'Mulish', sans-serif;
+  color: #202024;
+  line-height: 160%;
+}
+
+.description h2 {
+  font-size: 1.9rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+}
+
+.description p {
+  background-color: #F5F5F5;
+  border-radius: 6px;
+  padding: 0.7rem;
+
+  width: 3.8rem;
+
+  font-size: 1.2rem;
+}
+
+footer {
+  text-align: center;
+  padding: 16px;
+
+  color: #323238;
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+footer p {
+  text-decoration: none;
+}
