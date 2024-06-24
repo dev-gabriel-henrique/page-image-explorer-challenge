@@ -11,166 +11,182 @@
   <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
     rel="stylesheet" />
 
-  <title>Page Images</title>
+  <title>Foto Blog</title>
 
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  <header>
-    <a href="#">
-      <img src="./Assets/camera.svg" alt="imagem de uma camera preta">
-    </a>
+  <div id="app">
+    <header class="container">
+      <nav>
+        <a href="#">
+          <img src="./Assets/camera.svg" alt="imagem de uma camera preta">
+        </a>
 
-    <ul>
-      <li>
-        <a href="#">Home</a>
-      </li>
+        <ul>
+          <li>
+            <a href="#">Home</a>
+          </li>
 
-      <li>
-        <a href="#">Galeria</a>
-      </li>
-    </ul>
+          <li>
+            <a href="#">Galeria</a>
+          </li>
+        </ul>
+      </nav>
 
-    <input type="search" name="event-search" id="event-search" placeholder="Pesquise por imagens e coleções" size="50">
+      <form>
+        <div class="input-wrapper">
+          <label for="search">Pesquise por imagens e coleções</label>
+          <input type="search" id="search" placeholder="Pesquise por imagens e coleções">
+        </div>
+      </form>
 
-    <img src="./Assets/Jojo.png" alt="Imagem de um homem em formato de perfil">
-  </header>
-
-  <div class="page">
-
-    <h1>Galeria</h1>
+      <img src="./Assets/Jojo.png" alt="Imagem de um homem em formato de perfil">
+    </header>
 
     <main>
+      <div class="container">
 
-      <div class="frames">
-        <a href="#">
-          <img src="./Assets/image-1.png" alt="imagem de um local de trabalho">
+        <h1>Galeria</h1>
 
-          <div class="description">
-            <h2>Workspace elétrica</h2>
+        <section class="gallery">
 
-            <p>TAG</p>
+          <figure class="item">
+            <a href="#">
+              <img src="./Assets/image-1.png" alt="imagem de um local de trabalho">
 
-          </div>
-        </a>
+              <figcaption class="description">
+                <h2>Workspace elétrica</h2>
+
+                <div class="tags">
+                  <span>TAG</span>
+                </div>
+              </figcaption>
+            </a>
+          </figure>
+
+          <figure class="item">
+            <a href="#">
+              <img src="./Assets/image-2.png" alt="Imagem de um teclado e mouse com fundo vermelho">
+
+              <figcaption class="description">
+                <h2>Dark and red</h2>
+
+                <div class="tags">
+                  <span>TAG</span>
+                </div>
+              </figcaption>
+            </a>
+          </figure>
+
+          <figure class="item">
+            <a href="#">
+              <img src="./Assets/image-3.png" alt="Imagem de 2 monitores">
+
+              <figcaption class="description">
+                <h2>Organização e grids</h2>
+
+                <div class="tags">
+                  <span>TAG</span>
+                </div>
+              </figcaption>
+            </a>
+          </figure>
+
+          <figure class="item">
+            <a href="#">
+              <img src="./Assets/image-4.png" alt="2 monitores com fundo verde marinho">
+
+              <figcaption class="description">
+                <h2>Colméia</h2>
+
+                <div class="tags">
+                  <span>TAG</span>
+                </div>
+              </figcaption>
+            </a>
+          </figure>
+
+          <figure class="item">
+            <a href="#">
+              <img src="./Assets/image-5.png" alt="notebook em uma area de trabalho">
+
+              <figcaption class="description">
+                <h2>Setup de escritor</h2>
+
+                <div class="tags">
+                  <span>TAG</span>
+
+                </div>
+              </figcaption>
+            </a>
+          </figure>
+
+          <figure class="item">
+            <a href="#">
+              <img src="./Assets/image-6.png" alt="Área de trabalho ">
+
+              <figcaption class="description">
+                <h2>Ergonomia e cores</h2>
+
+                <div class="tags">
+                  <span>TAG</span>
+                </div>
+              </figcaption>
+            </a>
+          </figure>
+
+          <figure class="item">
+            <a href="#">
+              <img src="./Assets/image-7.png" alt="Imagem clean de 1 monitor com planta e outros objetos">
+
+              <figcaption class="description">
+                <h2>Show de Luzes</h2>
+
+                <div class="tags">
+                  <span>TAG</span>
+                </div>
+              </figcaption>
+            </a>
+          </figure>
+
+          <figure class="item">
+            <a href="#">
+              <img src="./Assets/image-8.png" alt="Imagem de uma área de trabalho com fundo roxo">
+
+              <figcaption class="description">
+                <h2>Deep purple</h2>
+
+                <div class="tags">
+                  <span>TAG</span>
+                </div>
+              </figcaption>
+            </a>
+          </figure>
+
+          <figure class="item">
+            <a href="#">
+              <img src="./Assets/image-9.png" alt="Imagem com várias telas">
+
+              <figcaption class="description">
+                <h2>Multi-Screen</h2>
+
+                <div class="tags">
+                  <span>TAG</span>
+                </div>
+              </figcaption>
+            </a>
+          </figure>
+        </section>
+
       </div>
+    </main>
 
-      <div class="frames">
-        <a href="#">
-          <img src="./Assets/image-2.png" alt="Imagem de um teclado e mouse com fundo vermelho">
-
-          <div class="description">
-            <h2>Dark and red</h2>
-
-            <p>TAG</p>
-          </div>
-        </a>
-      </div>
-
-      <div class="frames">
-        <a href="#">
-          <img src="./Assets/image-3.png" alt="Imagem de 2 monitores">
-
-          <div class="description">
-
-            <h2>Organização e grids</h2>
-
-            <p>TAG</p>
-
-          </div>
-        </a>
-      </div>
-
-      <div class="frames">
-        <a href="#">
-          <img src="./Assets/image-4.png" alt="2 monitores com fundo verde marinho">
-
-          <div class="description">
-
-            <h2>Colméia</h2>
-
-            <p>TAG</p>
-
-          </div>
-        </a>
-      </div>
-
-      <div class="frames">
-        <a href="#">
-          <img src="./Assets/image-5.png" alt="notebook em uma area de trabalho">
-
-          <div class="description">
-
-            <h2>Setup de escritor</h2>
-
-            <p>TAG</p>
-
-          </div>
-        </a>
-      </div>
-
-      <div class="frames">
-        <a href="#">
-          <img src="./Assets/image-6.png" alt="Área de trabalho ">
-
-          <div class="description">
-
-            <h2>Ergonomia e cores</h2>
-
-            <p>TAG</p>
-          </div>
-        </a>
-      </div>
-
-      <div class="frames">
-        <a href="#">
-          <img src="./Assets/image-7.png" alt="Imagem clean de 1 monitor com planta e outros objetos">
-
-          <div class="description">
-
-            <h2>Show de Luzes</h2>
-
-            <p>TAG</p>
-
-          </div>
-        </a>
-      </div>
-
-      <div class="frames">
-        <a href="#">
-          <img src="./Assets/image-8.png" alt="Imagem de uma área de trabalho com fundo roxo">
-
-          <div class="description">
-
-            <h2>Deep purple</h2>
-
-            <p>TAG</p>
-
-          </div>
-        </a>
-      </div>
-
-      <div class="frames">
-        <a href="#">
-          <img src="./Assets/image-9.png" alt="Imagem com várias telas">
-
-          <div class="description">
-
-            <h2>Multi-Screen</h2>
-
-            <p>TAG</p>
-          </div>
-          </a>
-      </div>
-
-  </div>
-  </main>
-  </div>
-
-  <footer>
+  <footer class="container">
     <p>© 2023 - Rocketseat Explorer</p>
   </footer>
+  </div>
 </body>
 
 </html>
